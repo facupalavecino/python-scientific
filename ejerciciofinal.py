@@ -1,3 +1,4 @@
+# coding=utf-8
 """
 ==================
 Final Assignment
@@ -54,7 +55,7 @@ from io import StringIO
 #
 # Tienen que entregar un PDF, tipo Markdown con código, gráficos y cualquier insight obtenido del dataset.
 
-signals = pd.read_csv('data/B001/eeg.dat', delimiter=' ', names = ['timestamp','counter','eeg','attention','meditation','blinking'])
+signals = pd.read_csv('data/tpfinal/eeg.dat', delimiter=' ', names = ['timestamp','counter','eeg','attention','meditation','blinking'])
 
 print('Estructura de la informacion:')
 print(signals.head())
